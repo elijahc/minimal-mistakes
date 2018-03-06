@@ -9,10 +9,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "elijahc"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Elijah Christensen"
+description              : "MD/PhD Student, dev, data scientist"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -90,10 +90,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "Elijah Christensen"
+  avatar           : "/assets/images/nz_beard.jpg"
+  bio              : "MD/PhD student, dev, data scientist"
+  location         : ""
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -103,7 +103,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "elijahc"
   gitlab           :
   google_plus      :
   keybase          :
@@ -258,4 +258,16 @@ defaults:
       read_time: true
       comments: # true
       share: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
       related: true
