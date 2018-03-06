@@ -5,7 +5,7 @@ title: Building Tensorflow from source with GPU bindings
 
 ## Why you should care
 
-Using Tensorflow with a GPU can significantly speed up training and testing time with large models.  
+Using Tensorflow with a GPU can significantly speed up training and testing time with large models.
 However, just because you finished installing that fancy new TITANX doesn't mean you're ready to go.
 
 I learned the hard way if you don't compile tensorflow from source with gpu drivers it just kinda sits there with nothing to do.
